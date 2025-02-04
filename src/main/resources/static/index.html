@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Skill Showcase</h1>
+
+    <form id="skillForm">
+        <label for="name">Skill Name:</label>
+        <input type="text" id="name" placeholder="Enter skill name" required>
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" placeholder="Short description">
+
+        <label for="proficiencyLevel">Proficiency Level:</label>
+        <select id="proficiencyLevel" required>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select>
+
+        <button type="submit">Add Skill</button>
+    </form>
+
+    <h2>My Skills</h2>
+    <ul id="skillList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
