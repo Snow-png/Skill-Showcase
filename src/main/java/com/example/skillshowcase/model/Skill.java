@@ -9,13 +9,15 @@ public class Skill {
     private Long id;
 
     private String name;
+    
     private String description;
+    
     private String proficiencyLevel;
-
-    // ✅ Add getters and setters
+    
     public Long getId() { return id; }
 
     public String getName() { return name; }
+    
     public void setName(String name) { this.name = name; }
 
     public String getDescription() { return description; }
